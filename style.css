@@ -1,0 +1,47 @@
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none; 
+  padding: 5;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.float-left {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  max-width: 40%; 
+}
+
+.edu-nsw-act-cursive {
+    font-family: "Edu NSW ACT Cursive", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+}
+
+p{
+font-family: "barlow-condensed", sans-serif; 
+}
+
+.flex-container {
+  display: flex;
+ flex-direction: row;
+
+}
+.flex-item {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 5px;
+}
+
+
+
+
